@@ -1,7 +1,17 @@
-const eplusDevList = ['Parça', 'Galego', 'Xará', 'Baqueta', 'Na', 'Lindo', 'Pablito', 'Bahia']
+const eplusDevList = ['Parca', 'Galego', 'Xara', 'Baqueta', 'Na', 'Lindo', 'Pablito', 'Bahia']
 
 function listDevs(list){
 
+    const devs = [] 
+
+    function showListDevs(devs){
+         for(dev  in  devs){
+             console.log(dev)
+         }
+    } 
+    
+    
+    showListDevs(devs)
 }
 
 listDevs(eplusDevList)
